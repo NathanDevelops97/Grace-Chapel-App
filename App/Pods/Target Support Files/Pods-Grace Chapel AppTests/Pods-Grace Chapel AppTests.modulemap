@@ -1,0 +1,6 @@
+framework module Pods_Grace_Chapel_AppTests {
+  umbrella header "Pods-Grace Chapel AppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		098F38A153405431A4DB790FF1DED2C5 /* Pods-Grace Chapel AppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D6192B82D0F0F7A3BE7766C6FF4D52 /* Pods-Grace Chapel AppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EF3511BE9F01A0D8ADE0DA2E80F9A33 /* Pods-Grace Chapel AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 266553DA92018C8E6DAF5E4953DFF193 /* Pods-Grace Chapel AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24D514E976C8FEB40466777A05E2461A /* Pods-Grace Chapel AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B8D7DBAA4CE8190B4BD3EAB959F49A /* Pods-Grace Chapel AppUITests-dummy.m */; };
+		5EAF9D052EC7AA3766AECB6F08788234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8075D8FF435B195E644DE2F1C4E67694 /* Pods-Grace Chapel App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B170FC4A55C75D35182BB64B6C3ED331 /* Pods-Grace Chapel App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E1DFE26D6FD14FF4112D005AB4BEB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		93465757B6E4C84AE32F8F5B5A5570E4 /* Pods-Grace Chapel App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8373DF803032E13E1C93DA198D84A01C /* Pods-Grace Chapel App-dummy.m */; };
+		B079814143E3AFE33A08A5EB66ED468B /* Pods-Grace Chapel AppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C22DAA0E82349C1661FE421E9EC3B7 /* Pods-Grace Chapel AppTests-dummy.m */; };
+		F50111DD964500432B45B736112B8B46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		009CB86D76C2900043217ACC1700E038 /* Pods-Grace Chapel AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Grace Chapel AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0295276CF5CFE8C96CC07825F049D1AB /* Pods-Grace Chapel AppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Grace Chapel AppTests-resources.sh"; sourceTree = "<group>"; };
+		0D4471B6EECE85D35A5E28ECD1FD7F61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D44990DACAB2530DC2CBC2807CE3DE8 /* Pods_Grace_Chapel_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grace_Chapel_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F236FC315BEA3864290959FF7F09EF /* Pods-Grace Chapel AppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Grace Chapel AppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		266553DA92018C8E6DAF5E4953DFF193 /* Pods-Grace Chapel AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Grace Chapel AppUITests-umbrella.h"; sourceTree = "<group>"; };
+		28027D6108E1A49A1EB9D151EFF4CCCF /* Pods-Grace Chapel AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Grace Chapel AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		397EF970B0BFD973C430F20FF6F7C67D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F234AAFA228ADF8970829C9BCFF143 /* Pods-Grace Chapel AppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Grace Chapel AppTests-frameworks.sh"; sourceTree = "<group>"; };
+		45D6192B82D0F0F7A3BE7766C6FF4D52 /* Pods-Grace Chapel AppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Grace Chapel AppTests-umbrella.h"; sourceTree = "<group>"; };
+		49C22DAA0E82349C1661FE421E9EC3B7 /* Pods-Grace Chapel AppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Grace Chapel AppTests-dummy.m"; sourceTree = "<group>"; };
+		5627467E18D9D7B0EC4321D1DD60734F /* Pods_Grace_Chapel_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grace_Chapel_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D589B404C03C26F2A5F95967F7ADE89 /* Pods-Grace Chapel AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Grace Chapel AppTests.modulemap"; sourceTree = "<group>"; };
+		613DA7AE9059C7CEC7A502679C8839D0 /* Pods-Grace Chapel AppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Grace Chapel AppUITests-resources.sh"; sourceTree = "<group>"; };
+		786D65BA52C82BC736528CB5506337FE /* Pods-Grace Chapel App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Grace Chapel App.debug.xcconfig"; sourceTree = "<group>"; };
+		8373DF803032E13E1C93DA198D84A01C /* Pods-Grace Chapel App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Grace Chapel App-dummy.m"; sourceTree = "<group>"; };
+		846F0C985FD2B76B10F28276C6B00C02 /* Pods-Grace Chapel AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Grace Chapel AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		89370E60A546E1614AACF64B8316D40E /* Pods-Grace Chapel AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Grace Chapel AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F4F77BFA672939E005C909B2F5F5669 /* Pods-Grace Chapel App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Grace Chapel App.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9614BBCA5D2F8F7EE663B7E6A6517E86 /* Pods-Grace Chapel App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Grace Chapel App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98197838A83AA75E6D093522333F7394 /* Pods_Grace_Chapel_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grace_Chapel_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50CD6744C195C0D053C3F47EA578BFB /* Pods-Grace Chapel App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Grace Chapel App-frameworks.sh"; sourceTree = "<group>"; };
+		A83A001E899F9603F97D04A2ED95BFCC /* Pods-Grace Chapel App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Grace Chapel App-acknowledgements.plist"; sourceTree = "<group>"; };
+		AAC0E467A961220E25A79C855C2A61A6 /* Pods-Grace Chapel App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Grace Chapel App-resources.sh"; sourceTree = "<group>"; };
+		B170FC4A55C75D35182BB64B6C3ED331 /* Pods-Grace Chapel App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Grace Chapel App-umbrella.h"; sourceTree = "<group>"; };
+		B8FD122782C0878515177C051679D592 /* Pods-Grace Chapel AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Grace Chapel AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF6C1C806831F6F7F2E676C803D8EAAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07B331E36B91981CB29AF9D703EDF21 /* Pods-Grace Chapel AppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Grace Chapel AppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5CBEE62F88E5D30F1A264F46A658556 /* Pods-Grace Chapel AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Grace Chapel AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC5907E6B7305677EAD2C0262DA66230 /* Pods-Grace Chapel AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Grace Chapel AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF3A58AEB72ECDEC05EEE85AEC06A4AA /* Pods-Grace Chapel App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Grace Chapel App.release.xcconfig"; sourceTree = "<group>"; };
+		F3B8D7DBAA4CE8190B4BD3EAB959F49A /* Pods-Grace Chapel AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Grace Chapel AppUITests-dummy.m"; sourceTree = "<group>"; };
+		F80F24A16FB97E4D13A4119C4FA3ABB2 /* Pods-Grace Chapel AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Grace Chapel AppUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21ED95E14842B8BB09EB113799F23EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAF9D052EC7AA3766AECB6F08788234 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7819A1203754ABFC29389EC2DE0A88E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E1DFE26D6FD14FF4112D005AB4BEB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9449C5860080AA0DA8BEF11E837EC24A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50111DD964500432B45B736112B8B46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		206488ACE13A04B41786B81CA05752D8 /* Pods-Grace Chapel AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D4471B6EECE85D35A5E28ECD1FD7F61 /* Info.plist */,
+				5D589B404C03C26F2A5F95967F7ADE89 /* Pods-Grace Chapel AppTests.modulemap */,
+				D07B331E36B91981CB29AF9D703EDF21 /* Pods-Grace Chapel AppTests-acknowledgements.markdown */,
+				009CB86D76C2900043217ACC1700E038 /* Pods-Grace Chapel AppTests-acknowledgements.plist */,
+				49C22DAA0E82349C1661FE421E9EC3B7 /* Pods-Grace Chapel AppTests-dummy.m */,
+				39F234AAFA228ADF8970829C9BCFF143 /* Pods-Grace Chapel AppTests-frameworks.sh */,
+				0295276CF5CFE8C96CC07825F049D1AB /* Pods-Grace Chapel AppTests-resources.sh */,
+				45D6192B82D0F0F7A3BE7766C6FF4D52 /* Pods-Grace Chapel AppTests-umbrella.h */,
+				89370E60A546E1614AACF64B8316D40E /* Pods-Grace Chapel AppTests.debug.xcconfig */,
+				846F0C985FD2B76B10F28276C6B00C02 /* Pods-Grace Chapel AppTests.release.xcconfig */,
+			);
+			name = "Pods-Grace Chapel AppTests";
+			path = "Target Support Files/Pods-Grace Chapel AppTests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		532E13464FCC2DB1D82DEA6EF3698111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D44990DACAB2530DC2CBC2807CE3DE8 /* Pods_Grace_Chapel_App.framework */,
+				98197838A83AA75E6D093522333F7394 /* Pods_Grace_Chapel_AppTests.framework */,
+				5627467E18D9D7B0EC4321D1DD60734F /* Pods_Grace_Chapel_AppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5957A313DBD398C2C1B078893FBE0C74 /* Pods-Grace Chapel AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF6C1C806831F6F7F2E676C803D8EAAE /* Info.plist */,
+				F80F24A16FB97E4D13A4119C4FA3ABB2 /* Pods-Grace Chapel AppUITests.modulemap */,
+				EC5907E6B7305677EAD2C0262DA66230 /* Pods-Grace Chapel AppUITests-acknowledgements.markdown */,
+				E5CBEE62F88E5D30F1A264F46A658556 /* Pods-Grace Chapel AppUITests-acknowledgements.plist */,
+				F3B8D7DBAA4CE8190B4BD3EAB959F49A /* Pods-Grace Chapel AppUITests-dummy.m */,
+				19F236FC315BEA3864290959FF7F09EF /* Pods-Grace Chapel AppUITests-frameworks.sh */,
+				613DA7AE9059C7CEC7A502679C8839D0 /* Pods-Grace Chapel AppUITests-resources.sh */,
+				266553DA92018C8E6DAF5E4953DFF193 /* Pods-Grace Chapel AppUITests-umbrella.h */,
+				28027D6108E1A49A1EB9D151EFF4CCCF /* Pods-Grace Chapel AppUITests.debug.xcconfig */,
+				B8FD122782C0878515177C051679D592 /* Pods-Grace Chapel AppUITests.release.xcconfig */,
+			);
+			name = "Pods-Grace Chapel AppUITests";
+			path = "Target Support Files/Pods-Grace Chapel AppUITests";
+			sourceTree = "<group>";
+		};
+		5D62BD767AB6F6F70A7223A992CCA355 /* Pods-Grace Chapel App */ = {
+			isa = PBXGroup;
+			children = (
+				397EF970B0BFD973C430F20FF6F7C67D /* Info.plist */,
+				8F4F77BFA672939E005C909B2F5F5669 /* Pods-Grace Chapel App.modulemap */,
+				9614BBCA5D2F8F7EE663B7E6A6517E86 /* Pods-Grace Chapel App-acknowledgements.markdown */,
+				A83A001E899F9603F97D04A2ED95BFCC /* Pods-Grace Chapel App-acknowledgements.plist */,
+				8373DF803032E13E1C93DA198D84A01C /* Pods-Grace Chapel App-dummy.m */,
+				A50CD6744C195C0D053C3F47EA578BFB /* Pods-Grace Chapel App-frameworks.sh */,
+				AAC0E467A961220E25A79C855C2A61A6 /* Pods-Grace Chapel App-resources.sh */,
+				B170FC4A55C75D35182BB64B6C3ED331 /* Pods-Grace Chapel App-umbrella.h */,
+				786D65BA52C82BC736528CB5506337FE /* Pods-Grace Chapel App.debug.xcconfig */,
+				EF3A58AEB72ECDEC05EEE85AEC06A4AA /* Pods-Grace Chapel App.release.xcconfig */,
+			);
+			name = "Pods-Grace Chapel App";
+			path = "Target Support Files/Pods-Grace Chapel App";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				532E13464FCC2DB1D82DEA6EF3698111 /* Products */,
+				DAFA2668BAF80DEDECACB52BCEAED2ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAFA2668BAF80DEDECACB52BCEAED2ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D62BD767AB6F6F70A7223A992CCA355 /* Pods-Grace Chapel App */,
+				206488ACE13A04B41786B81CA05752D8 /* Pods-Grace Chapel AppTests */,
+				5957A313DBD398C2C1B078893FBE0C74 /* Pods-Grace Chapel AppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CEF455D82A939C6A60CE487D38644DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF3511BE9F01A0D8ADE0DA2E80F9A33 /* Pods-Grace Chapel AppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AE85DD3B14599DD47CEAB1F124005D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8075D8FF435B195E644DE2F1C4E67694 /* Pods-Grace Chapel App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B26BAEEA41563D03D80A9C4F0DDC559 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098F38A153405431A4DB790FF1DED2C5 /* Pods-Grace Chapel AppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14D9FB202001FEA770F781E09A6B80B8 /* Pods-Grace Chapel AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B28998A6511BA6CCB6530CC3E45F294 /* Build configuration list for PBXNativeTarget "Pods-Grace Chapel AppTests" */;
+			buildPhases = (
+				61D0AFF96D114B38D4E0ABC54ECE1AC9 /* Sources */,
+				7819A1203754ABFC29389EC2DE0A88E5 /* Frameworks */,
+				7B26BAEEA41563D03D80A9C4F0DDC559 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Grace Chapel AppTests";
+			productName = "Pods-Grace Chapel AppTests";
+			productReference = 98197838A83AA75E6D093522333F7394 /* Pods_Grace_Chapel_AppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9858601C54F32C7B33E9F18EA46BBA25 /* Pods-Grace Chapel App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89AC91E4E8886ECDE8AD4EE7F1B2505B /* Build configuration list for PBXNativeTarget "Pods-Grace Chapel App" */;
+			buildPhases = (
+				6EA68C7883D4660A3988F68A552D6E84 /* Sources */,
+				9449C5860080AA0DA8BEF11E837EC24A /* Frameworks */,
+				50AE85DD3B14599DD47CEAB1F124005D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Grace Chapel App";
+			productName = "Pods-Grace Chapel App";
+			productReference = 0D44990DACAB2530DC2CBC2807CE3DE8 /* Pods_Grace_Chapel_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFBA61A4A71AF3082135576D75E7DBEC /* Pods-Grace Chapel AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB961615464D7BC871D5E210AD7CE586 /* Build configuration list for PBXNativeTarget "Pods-Grace Chapel AppUITests" */;
+			buildPhases = (
+				1A01B92E233DD0C8276972D0D87A94E5 /* Sources */,
+				21ED95E14842B8BB09EB113799F23EB2 /* Frameworks */,
+				3CEF455D82A939C6A60CE487D38644DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Grace Chapel AppUITests";
+			productName = "Pods-Grace Chapel AppUITests";
+			productReference = 5627467E18D9D7B0EC4321D1DD60734F /* Pods_Grace_Chapel_AppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 532E13464FCC2DB1D82DEA6EF3698111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9858601C54F32C7B33E9F18EA46BBA25 /* Pods-Grace Chapel App */,
+				14D9FB202001FEA770F781E09A6B80B8 /* Pods-Grace Chapel AppTests */,
+				AFBA61A4A71AF3082135576D75E7DBEC /* Pods-Grace Chapel AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A01B92E233DD0C8276972D0D87A94E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D514E976C8FEB40466777A05E2461A /* Pods-Grace Chapel AppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D0AFF96D114B38D4E0ABC54ECE1AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B079814143E3AFE33A08A5EB66ED468B /* Pods-Grace Chapel AppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA68C7883D4660A3988F68A552D6E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93465757B6E4C84AE32F8F5B5A5570E4 /* Pods-Grace Chapel App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50304F44ABBFCE78F126635B2D4758C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28027D6108E1A49A1EB9D151EFF4CCCF /* Pods-Grace Chapel AppUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Grace Chapel AppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Grace Chapel AppUITests/Pods-Grace Chapel AppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Grace_Chapel_AppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		749F2F6B5061D643798C42E3429DFFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3A58AEB72ECDEC05EEE85AEC06A4AA /* Pods-Grace Chapel App.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Grace Chapel App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Grace Chapel App/Pods-Grace Chapel App.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Grace_Chapel_App;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE046B8188AA44B15882A4A40758B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8FD122782C0878515177C051679D592 /* Pods-Grace Chapel AppUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Grace Chapel AppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Grace Chapel AppUITests/Pods-Grace Chapel AppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Grace_Chapel_AppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A71A2DA77DA3376A1106023AAD81677B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846F0C985FD2B76B10F28276C6B00C02 /* Pods-Grace Chapel AppTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Grace Chapel AppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Grace Chapel AppTests/Pods-Grace Chapel AppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Grace_Chapel_AppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1F14CE5CCDF00BEF74AF64E93E9891F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786D65BA52C82BC736528CB5506337FE /* Pods-Grace Chapel App.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Grace Chapel App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Grace Chapel App/Pods-Grace Chapel App.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Grace_Chapel_App;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C73019ACC277B0A66E56300A9E6BCFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89370E60A546E1614AACF64B8316D40E /* Pods-Grace Chapel AppTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Grace Chapel AppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Grace Chapel AppTests/Pods-Grace Chapel AppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Grace_Chapel_AppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B28998A6511BA6CCB6530CC3E45F294 /* Build configuration list for PBXNativeTarget "Pods-Grace Chapel AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73019ACC277B0A66E56300A9E6BCFE9 /* Debug */,
+				A71A2DA77DA3376A1106023AAD81677B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89AC91E4E8886ECDE8AD4EE7F1B2505B /* Build configuration list for PBXNativeTarget "Pods-Grace Chapel App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F14CE5CCDF00BEF74AF64E93E9891F /* Debug */,
+				749F2F6B5061D643798C42E3429DFFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB961615464D7BC871D5E210AD7CE586 /* Build configuration list for PBXNativeTarget "Pods-Grace Chapel AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50304F44ABBFCE78F126635B2D4758C9 /* Debug */,
+				8DE046B8188AA44B15882A4A40758B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
