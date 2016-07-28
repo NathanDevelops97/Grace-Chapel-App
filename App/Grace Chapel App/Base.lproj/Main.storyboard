@@ -3,26 +3,28 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Sign Into CCB-->
+        <!--View Controller-->
         <scene sceneID="1GM-o4-ub0">
             <objects>
-                <viewController id="MCv-OI-JG1" sceneMemberID="viewController">
+                <viewController id="MCv-OI-JG1" customClass="CCBViewController" customModule="Grace_Chapel_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0x2-uu-rTX"/>
                         <viewControllerLayoutGuide type="bottom" id="iZG-8n-ThR"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yvm-kP-Eer">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.34509803921568627" green="0.34509803921568627" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Sign Into CCB" image="Sign In" id="pzG-kL-TCm"/>
+                    <navigationItem key="navigationItem" id="fon-N2-42Q"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sqD-8y-Za3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-667" y="0.0"/>
+            <point key="canvasLocation" x="144.5" y="-0.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -32,82 +34,231 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.25882352941176467" green="0.25882352941176467" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="f3P-Yx-Mmr" kind="relationship" relationship="viewControllers" id="v4M-eq-swX"/>
-                        <segue destination="cXJ-KK-Ase" kind="relationship" relationship="viewControllers" id="6HR-GA-SHt"/>
-                        <segue destination="9y4-3e-4vG" kind="relationship" relationship="viewControllers" id="haH-7Q-JuE"/>
-                        <segue destination="MCv-OI-JG1" kind="relationship" relationship="viewControllers" id="gLX-P3-sm7"/>
+                        <segue destination="tGZ-Fz-ZAv" kind="relationship" relationship="viewControllers" id="v4M-eq-swX"/>
+                        <segue destination="tuI-ti-SWc" kind="relationship" relationship="viewControllers" id="6HR-GA-SHt"/>
+                        <segue destination="8Iy-Uy-6gs" kind="relationship" relationship="viewControllers" id="haH-7Q-JuE"/>
+                        <segue destination="0XM-7q-jZ5" kind="relationship" relationship="viewControllers" id="gLX-P3-sm7"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="812" y="0.0"/>
         </scene>
-        <!--Give-->
+        <!--Give View Controller-->
         <scene sceneID="zC2-wF-O83">
             <objects>
-                <viewController id="9y4-3e-4vG" sceneMemberID="viewController">
+                <viewController id="9y4-3e-4vG" customClass="GiveViewController" customModule="Grace_Chapel_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3k7-XY-Z9M"/>
                         <viewControllerLayoutGuide type="bottom" id="OhQ-Oc-AsI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="iCi-HS-L3D">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Giving Banner" translatesAutoresizingMaskIntoConstraints="NO" id="QgV-yr-DiY">
+                                <rect key="frame" x="0.0" y="64" width="375" height="131"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2PK-Nf-u1e">
+                                <rect key="frame" x="39" y="220" width="296" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="Kw3-IG-MJW"/>
+                                </constraints>
+                                <state key="normal" image="Text To Give"/>
+                                <connections>
+                                    <action selector="TextToGive:" destination="9y4-3e-4vG" eventType="touchUpInside" id="YRW-ki-D8c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZbT-uD-EBR">
+                                <rect key="frame" x="39" y="486" width="296" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="jwy-p4-G2l"/>
+                                </constraints>
+                                <state key="normal" image="Donation Box"/>
+                                <connections>
+                                    <action selector="Giving:" destination="9y4-3e-4vG" eventType="touchUpInside" id="Z5d-si-urN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZzG-5X-tgK">
+                                <rect key="frame" x="39" y="353" width="296" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="BO4-pl-KD0"/>
+                                </constraints>
+                                <state key="normal" image="Giving Online"/>
+                                <connections>
+                                    <action selector="GiveOnline:" destination="9y4-3e-4vG" eventType="touchUpInside" id="xWW-Rk-Me7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.34509803921568627" green="0.34509803921568627" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2PK-Nf-u1e" firstAttribute="trailing" secondItem="ZzG-5X-tgK" secondAttribute="trailing" id="0Tz-h6-ZE4"/>
+                            <constraint firstItem="QgV-yr-DiY" firstAttribute="top" secondItem="3k7-XY-Z9M" secondAttribute="bottom" id="6pG-ZL-Wgh"/>
+                            <constraint firstItem="2PK-Nf-u1e" firstAttribute="top" secondItem="QgV-yr-DiY" secondAttribute="bottom" constant="25" id="FaD-dj-QnM"/>
+                            <constraint firstItem="OhQ-Oc-AsI" firstAttribute="top" secondItem="ZbT-uD-EBR" secondAttribute="bottom" constant="36" id="KJn-eB-lNQ"/>
+                            <constraint firstItem="ZbT-uD-EBR" firstAttribute="top" secondItem="ZzG-5X-tgK" secondAttribute="bottom" constant="37" id="NIz-gU-oiT"/>
+                            <constraint firstItem="QgV-yr-DiY" firstAttribute="centerX" secondItem="2PK-Nf-u1e" secondAttribute="centerX" id="PSm-kU-w8l"/>
+                            <constraint firstItem="2PK-Nf-u1e" firstAttribute="leading" secondItem="ZzG-5X-tgK" secondAttribute="leading" id="RzK-ne-s9T"/>
+                            <constraint firstItem="ZzG-5X-tgK" firstAttribute="top" secondItem="2PK-Nf-u1e" secondAttribute="bottom" constant="37" id="d7K-jU-8EI"/>
+                            <constraint firstItem="QgV-yr-DiY" firstAttribute="leading" secondItem="iCi-HS-L3D" secondAttribute="leading" id="jMt-qz-b3S"/>
+                            <constraint firstItem="ZzG-5X-tgK" firstAttribute="leading" secondItem="ZbT-uD-EBR" secondAttribute="leading" id="kyw-ys-7z3"/>
+                            <constraint firstAttribute="trailing" secondItem="QgV-yr-DiY" secondAttribute="trailing" id="ulI-NP-HQh"/>
+                            <constraint firstItem="2PK-Nf-u1e" firstAttribute="leading" secondItem="iCi-HS-L3D" secondAttribute="leadingMargin" constant="23" id="ySL-j1-vJ9"/>
+                            <constraint firstItem="ZzG-5X-tgK" firstAttribute="trailing" secondItem="ZbT-uD-EBR" secondAttribute="trailing" id="zOt-On-53D"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Give" image="Giving" id="pb1-lf-xkE"/>
+                    <navigationItem key="navigationItem" id="60y-h3-rns"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tug-1M-2Ja" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="699"/>
+            <point key="canvasLocation" x="812.5" y="772.5"/>
         </scene>
-        <!--Home-->
+        <!--Home View Controller-->
         <scene sceneID="5JN-gy-rsC">
             <objects>
-                <viewController id="f3P-Yx-Mmr" sceneMemberID="viewController">
+                <viewController id="f3P-Yx-Mmr" customClass="HomeViewController" customModule="Grace_Chapel_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JLV-e4-DDL"/>
                         <viewControllerLayoutGuide type="bottom" id="fpv-WO-qJk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ju5-aO-9bm">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.34509803921568627" green="0.34509803921568627" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="Home" id="fsO-Bj-w38"/>
+                    <navigationItem key="navigationItem" id="a6h-Zz-ulL"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o4U-Xg-f1I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="-706"/>
+            <point key="canvasLocation" x="1623.5" y="-706.5"/>
         </scene>
-        <!--Register-->
+        <!--Register View Controller-->
         <scene sceneID="NDR-Bw-FH7">
             <objects>
-                <viewController id="cXJ-KK-Ase" sceneMemberID="viewController">
+                <viewController id="cXJ-KK-Ase" customClass="RegisterViewController" customModule="Grace_Chapel_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="48X-gU-FLt"/>
                         <viewControllerLayoutGuide type="bottom" id="rLh-C6-DiC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ljf-YH-aMd">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hb4-jd-kgZ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.34509803921568627" green="0.34509803921568627" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hb4-jd-kgZ" firstAttribute="bottom" secondItem="rLh-C6-DiC" secondAttribute="top" id="Egi-wK-2lz"/>
+                            <constraint firstItem="hb4-jd-kgZ" firstAttribute="leading" secondItem="ljf-YH-aMd" secondAttribute="leading" id="FFL-tG-jb2"/>
+                            <constraint firstItem="hb4-jd-kgZ" firstAttribute="top" secondItem="48X-gU-FLt" secondAttribute="bottom" id="ftp-62-jaD"/>
+                            <constraint firstAttribute="trailing" secondItem="hb4-jd-kgZ" secondAttribute="trailing" id="o7R-1T-W9X"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Register" image="Register" id="TEM-6P-fVL"/>
+                    <navigationItem key="navigationItem" id="Nl6-8y-SEf"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="webView" destination="hb4-jd-kgZ" id="Ndt-GY-Nvr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lT8-Dw-4WG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="673" y="0.0"/>
+            <point key="canvasLocation" x="2088.5" y="33.5"/>
+        </scene>
+        <!--Register-->
+        <scene sceneID="ay0-vo-cMF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tuI-ti-SWc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Register" image="Register" id="TEM-6P-fVL"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cii-3F-rCn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cXJ-KK-Ase" kind="relationship" relationship="rootViewController" id="Pnl-qZ-mYG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q4i-EB-D2M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1485" y="0.0"/>
+        </scene>
+        <!--Give-->
+        <scene sceneID="dLa-7b-aJJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8Iy-Uy-6gs" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Give" image="Giving" id="pb1-lf-xkE"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HBh-JY-lHf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9y4-3e-4vG" kind="relationship" relationship="rootViewController" id="c6x-Ni-Vmj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zyv-XT-jbF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="773"/>
+        </scene>
+        <!--Sign Into CCB-->
+        <scene sceneID="yzx-5r-u1k">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0XM-7q-jZ5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Sign Into CCB" image="Sign In" id="pzG-kL-TCm"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kES-9K-v1Q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MCv-OI-JG1" kind="relationship" relationship="rootViewController" id="CX9-2i-lbE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kct-Em-jUW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-667" y="0.0"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="fdN-uP-YLe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tGZ-Fz-ZAv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="Home" id="fsO-Bj-w38"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1LL-fI-1xi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="f3P-Yx-Mmr" kind="relationship" relationship="rootViewController" id="D4y-C0-cnD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DDe-3E-s1D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="811" y="-707"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Donation Box" width="329" height="71"/>
         <image name="Giving" width="29" height="23"/>
+        <image name="Giving Banner" width="375" height="133"/>
+        <image name="Giving Online" width="313" height="71"/>
         <image name="Home" width="27" height="26"/>
         <image name="Register" width="23" height="24"/>
         <image name="Sign In" width="31" height="25"/>
+        <image name="Text To Give" width="285" height="76"/>
     </resources>
 </document>

@@ -19,10 +19,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UITabBar.appearance().tintColor = UIColor(red: 250/255.0, green: 250/255.0, blue: 250/255.0, alpha: 1.0)
 
+        //Cutomize navigation bar
+        let navBgImage:UIImage = UIImage(named: "nav.png")!
+        UINavigationBar.appearance().setBackgroundImage(navBgImage, forBarMetrics: .Default)
+        
         
 
-        
-        
+      
+      
         return true
     }
 

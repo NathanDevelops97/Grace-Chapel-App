@@ -10,8 +10,15 @@ import UIKit
 
 class RegisterViewController: UIViewController {
 
+    @IBOutlet weak var webView: UIWebView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let url = NSURL (string: "https://grace-chapel.ccbchurch.com/mobile_login.php");
+        let requestObj = NSURLRequest(URL: url!);
+        webView.loadRequest(requestObj);
 
         // Do any additional setup after loading the view.
     }

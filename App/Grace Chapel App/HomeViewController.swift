@@ -12,6 +12,11 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        self.tabBarController!.tabBar.layer.borderWidth = 1
+        self.tabBarController!.tabBar.layer.borderColor = UIColor(red: 255/255.0, green: 255/255.0, blue: 255/255.0, alpha: 1.0).CGColor
+        self.tabBarController?.tabBar.clipsToBounds = true
 
         // Do any additional setup after loading the view.
     }
