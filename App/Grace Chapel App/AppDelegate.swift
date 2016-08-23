@@ -23,7 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let navBgImage:UIImage = UIImage(named: "nav.png")!
         UINavigationBar.appearance().setBackgroundImage(navBgImage, forBarMetrics: .Default)
         
-        
+        UITabBar.appearance().backgroundImage = UIImage(named:"bar.png")
+
 
       
       

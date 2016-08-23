@@ -9,6 +9,7 @@
 import UIKit
 import MessageUI
 
+
 class GiveViewController: UIViewController, MFMessageComposeViewControllerDelegate {
 
     @IBOutlet weak var textTGive: UIButton!
@@ -28,6 +29,15 @@ class GiveViewController: UIViewController, MFMessageComposeViewControllerDelega
     
     var url : NSURL?
 
+    let txtButton = TextToGive
+    
+    
+  
+    
+    
+    
+    
+    
     
 
     @IBAction func TextToGive(sender: AnyObject) {
@@ -63,6 +73,7 @@ class GiveViewController: UIViewController, MFMessageComposeViewControllerDelega
         
         
     }
+    
     
     
     
