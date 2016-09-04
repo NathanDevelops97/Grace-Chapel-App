@@ -16,7 +16,7 @@
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.34509803921568627" green="0.34509803921568627" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="UIn-IU-TK4"/>
                 </viewController>
@@ -35,7 +35,7 @@
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.34509803921568627" green="0.34509803921568627" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="w5W-ZT-nnC"/>
                 </viewController>
@@ -76,7 +76,7 @@
                     <view key="view" contentMode="scaleToFill" id="21i-PN-BBr">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.34509803921568627" green="0.34509803921568627" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="0EL-KJ-iiX"/>
                 </viewController>
@@ -95,7 +95,59 @@
                     <view key="view" contentMode="scaleToFill" id="v2l-b9-r9u">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 5" translatesAutoresizingMaskIntoConstraints="NO" id="Xs7-s3-Q9R">
+                                <rect key="frame" x="50" y="64" width="500" height="175"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="175" id="35g-HM-pcZ"/>
+                                    <constraint firstAttribute="width" constant="500" id="LZl-0q-TLh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Text To Give" translatesAutoresizingMaskIntoConstraints="NO" id="0h5-B8-eOO">
+                                <rect key="frame" x="150" y="247" width="300" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="rhn-uZ-hiC"/>
+                                    <constraint firstAttribute="width" constant="300" id="yED-Fg-UU7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Giving Online" translatesAutoresizingMaskIntoConstraints="NO" id="BkP-6r-KwX">
+                                <rect key="frame" x="150" y="340" width="300" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="0Zd-Gl-r8k"/>
+                                    <constraint firstAttribute="height" constant="85" id="FUA-7z-5TO"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="85" id="ORi-96-iZB"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="r7D-NZ-QcQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Donation Box" translatesAutoresizingMaskIntoConstraints="NO" id="16z-WL-HzP">
+                                <rect key="frame" x="150" y="433" width="300" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="MLt-Rm-WSJ"/>
+                                    <constraint firstAttribute="width" constant="300" id="fae-Ib-MUX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.34509803921568627" green="0.34509803921568627" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="BkP-6r-KwX" firstAttribute="top" secondItem="0h5-B8-eOO" secondAttribute="bottom" constant="8" id="1uR-S7-rXK"/>
+                            <constraint firstItem="Xs7-s3-Q9R" firstAttribute="top" secondItem="rqa-MO-t68" secondAttribute="bottom" id="3zb-sX-d9f"/>
+                            <constraint firstItem="16z-WL-HzP" firstAttribute="top" secondItem="BkP-6r-KwX" secondAttribute="bottom" constant="8" id="8Mz-Ww-yxb"/>
+                            <constraint firstItem="BkP-6r-KwX" firstAttribute="centerX" secondItem="v2l-b9-r9u" secondAttribute="centerX" id="8XP-Vl-qFl"/>
+                            <constraint firstItem="0h5-B8-eOO" firstAttribute="top" secondItem="Xs7-s3-Q9R" secondAttribute="bottom" constant="8" id="IDN-0A-fBd"/>
+                            <constraint firstItem="0h5-B8-eOO" firstAttribute="centerX" secondItem="v2l-b9-r9u" secondAttribute="centerX" id="JOF-HZ-wqV"/>
+                            <constraint firstItem="0h5-B8-eOO" firstAttribute="top" secondItem="Xs7-s3-Q9R" secondAttribute="bottom" constant="8" id="NQi-W1-lkD"/>
+                            <constraint firstItem="Xs7-s3-Q9R" firstAttribute="centerX" secondItem="v2l-b9-r9u" secondAttribute="centerX" id="OeM-Te-UVr"/>
+                            <constraint firstItem="16z-WL-HzP" firstAttribute="centerX" secondItem="v2l-b9-r9u" secondAttribute="centerX" id="rO6-cZ-kTt"/>
+                            <constraint firstItem="BkP-6r-KwX" firstAttribute="top" secondItem="0h5-B8-eOO" secondAttribute="bottom" constant="8" id="sFZ-e6-d9H"/>
+                            <constraint firstItem="16z-WL-HzP" firstAttribute="top" secondItem="BkP-6r-KwX" secondAttribute="bottom" constant="8" id="vKl-Eb-1ma"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="NQi-W1-lkD"/>
+                                <exclude reference="sFZ-e6-d9H"/>
+                                <exclude reference="vKl-Eb-1ma"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="mBu-3i-m3U"/>
                 </viewController>
@@ -183,7 +235,11 @@
     <resources>
         <image name="Bank Cards-96" width="29" height="23"/>
         <image name="Calendar-96" width="23" height="24"/>
+        <image name="Donation Box" width="362" height="80"/>
+        <image name="Giving Online" width="345" height="80"/>
+        <image name="Group 5" width="413" height="146"/>
         <image name="Home-96" width="27" height="26"/>
         <image name="Sign In" width="31" height="25"/>
+        <image name="Text To Give" width="314" height="85"/>
     </resources>
 </document>
