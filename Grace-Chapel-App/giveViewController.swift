@@ -10,6 +10,13 @@ import UIKit
 
 class giveViewController: UIViewController {
 
+    
+    @IBOutlet weak var txtToGive: UIButton!
+    @IBOutlet weak var givingOnline: UIButton!
+    @IBOutlet weak var givingStations: UIButton!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +29,23 @@ class giveViewController: UIViewController {
     }
     
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

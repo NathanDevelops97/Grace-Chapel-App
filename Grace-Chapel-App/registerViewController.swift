@@ -10,18 +10,50 @@ import UIKit
 
 class registerViewController: UIViewController {
 
+    @IBOutlet weak var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadWebPage()
 
         // Do any additional setup after loading the view.
     }
 
+    
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
 
+    
+    
+    func loadWebPage(){
+        let theURL = "https://grace-chapel.ccbchurch.com/mobile_login.php"
+        let theRequestURL = NSURL (string: theURL)
+        let theRequest = NSURLRequest (URL: theRequestURL!)
+        webView.loadRequest(theRequest)
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
