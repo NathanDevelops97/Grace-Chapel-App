@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -121,7 +121,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YBL-D9-OCX" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3051" y="440"/>
+            <point key="canvasLocation" x="3037.5" y="358.5"/>
         </scene>
         <!--Give View Controller-->
         <scene sceneID="feM-AO-7cH">
@@ -132,190 +132,107 @@
                         <viewControllerLayoutGuide type="bottom" id="dV4-8r-N5i"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="v2l-b9-r9u">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrx-f5-yrg">
+                                <rect key="frame" x="18" y="230" width="284" height="77"/>
+                                <state key="normal" image="Text"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SkK-dD-oEo">
+                                <rect key="frame" x="16" y="434" width="284" height="77"/>
+                                <state key="normal" image="Donation Boxes"/>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 5" translatesAutoresizingMaskIntoConstraints="NO" id="Xs7-s3-Q9R">
-                                <rect key="frame" x="93.5" y="64" width="413" height="146"/>
+                                <rect key="frame" x="-46" y="64" width="413" height="146"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="149" id="1B1-I9-HJz">
+                                        <variation key="widthClass=compact" constant="144"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="160"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="146" id="3To-gj-die"/>
+                                    <constraint firstAttribute="width" constant="400" id="7wv-7q-ZHQ"/>
+                                    <constraint firstAttribute="width" constant="414" id="EQi-iv-o4h">
+                                        <variation key="widthClass=compact" constant="400"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" secondItem="Xs7-s3-Q9R" secondAttribute="height" multiplier="414:149" id="IUl-Mf-hV5"/>
                                     <constraint firstAttribute="width" secondItem="Xs7-s3-Q9R" secondAttribute="height" multiplier="20:7" id="Mq1-YA-6o8">
                                         <variation key="widthClass=compact" constant="-25.714285714285722"/>
                                     </constraint>
+                                    <constraint firstAttribute="width" constant="413" id="PBB-xx-NrE"/>
+                                    <constraint firstAttribute="height" constant="146" id="Px5-tf-mgG"/>
+                                    <constraint firstAttribute="height" constant="149" id="a5v-HG-xHP"/>
+                                    <constraint firstAttribute="width" secondItem="Xs7-s3-Q9R" secondAttribute="height" multiplier="400:149" id="bL9-Oy-VfC"/>
+                                    <constraint firstAttribute="width" constant="413" id="fh3-Sk-1vE"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="1B1-I9-HJz"/>
+                                        <exclude reference="3To-gj-die"/>
+                                        <exclude reference="7wv-7q-ZHQ"/>
+                                        <exclude reference="EQi-iv-o4h"/>
+                                        <exclude reference="IUl-Mf-hV5"/>
                                         <exclude reference="Mq1-YA-6o8"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="149"/>
-                                    <mask key="constraints">
-                                        <exclude reference="Mq1-YA-6o8"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSb-D9-gye">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="gSb-D9-gye" secondAttribute="height" multiplier="314:85" id="0od-ji-1vF"/>
-                                    <constraint firstAttribute="width" constant="314" id="EMn-tR-K5o"/>
-                                    <constraint firstAttribute="height" constant="85" id="a20-bo-vYA"/>
-                                </constraints>
-                                <state key="normal" image="Text To Give"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="0od-ji-1vF"/>
-                                        <exclude reference="EMn-tR-K5o"/>
-                                        <exclude reference="a20-bo-vYA"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="42" y="238" width="314" height="85"/>
-                                    <mask key="constraints">
-                                        <include reference="0od-ji-1vF"/>
-                                        <include reference="EMn-tR-K5o"/>
-                                        <include reference="a20-bo-vYA"/>
-                                    </mask>
-                                </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEy-LV-XXe">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="OEy-LV-XXe" secondAttribute="height" multiplier="314:85" id="7nU-Fi-rVR"/>
-                                    <constraint firstAttribute="height" constant="85" id="NDT-CK-QQX"/>
-                                    <constraint firstAttribute="width" constant="314" id="jKh-Oq-8jP"/>
-                                </constraints>
-                                <state key="normal" image="Giving Online"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="7nU-Fi-rVR"/>
-                                        <exclude reference="NDT-CK-QQX"/>
-                                        <exclude reference="jKh-Oq-8jP"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="42" y="344" width="314" height="85"/>
-                                    <mask key="constraints">
-                                        <include reference="7nU-Fi-rVR"/>
-                                        <include reference="NDT-CK-QQX"/>
-                                        <include reference="jKh-Oq-8jP"/>
-                                    </mask>
-                                </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ZA-ec-JDg">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="7ZA-ec-JDg" secondAttribute="height" multiplier="314:85" id="Cp6-Nl-8Zc"/>
-                                    <constraint firstAttribute="width" constant="314" id="lhA-88-YaV"/>
-                                    <constraint firstAttribute="height" constant="85" id="x22-dT-1m9"/>
-                                </constraints>
-                                <state key="normal" image="Donation Box"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="Cp6-Nl-8Zc"/>
-                                        <exclude reference="lhA-88-YaV"/>
-                                        <exclude reference="x22-dT-1m9"/>
+                                        <exclude reference="PBB-xx-NrE"/>
+                                        <exclude reference="a5v-HG-xHP"/>
+                                        <exclude reference="bL9-Oy-VfC"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="Cp6-Nl-8Zc"/>
-                                        <include reference="lhA-88-YaV"/>
-                                        <include reference="x22-dT-1m9"/>
+                                        <include reference="1B1-I9-HJz"/>
+                                        <exclude reference="7wv-7q-ZHQ"/>
+                                        <include reference="EQi-iv-o4h"/>
+                                        <exclude reference="IUl-Mf-hV5"/>
+                                        <exclude reference="Mq1-YA-6o8"/>
+                                        <exclude reference="a5v-HG-xHP"/>
+                                        <exclude reference="bL9-Oy-VfC"/>
                                     </mask>
                                 </variation>
+                                <variation key="widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="193" y="64" width="413" height="146"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="64" width="375" height="160"/>
+                                    <mask key="constraints">
+                                        <exclude reference="1B1-I9-HJz"/>
+                                        <exclude reference="EQi-iv-o4h"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c28-Fs-hJL">
+                                <rect key="frame" x="16" y="332" width="284" height="77"/>
+                                <state key="normal" image="Give Online"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.34509803921568627" green="0.34509803921568627" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="gSb-D9-gye" firstAttribute="leading" secondItem="v2l-b9-r9u" secondAttribute="leadingMargin" constant="22" id="3V2-Ba-4cl"/>
-                            <constraint firstItem="Xs7-s3-Q9R" firstAttribute="top" secondItem="rqa-MO-t68" secondAttribute="bottom" id="3zb-sX-d9f"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gSb-D9-gye" secondAttribute="trailing" constant="24" id="7kE-HP-80j"/>
-                            <constraint firstItem="gSb-D9-gye" firstAttribute="top" secondItem="Xs7-s3-Q9R" secondAttribute="bottom" constant="25" id="9Tw-YM-Csm"/>
-                            <constraint firstItem="OEy-LV-XXe" firstAttribute="top" secondItem="gSb-D9-gye" secondAttribute="bottom" constant="21" id="9qw-fT-RMo"/>
-                            <constraint firstItem="dV4-8r-N5i" firstAttribute="top" secondItem="7ZA-ec-JDg" secondAttribute="bottom" constant="16" id="DGP-vH-WX6"/>
-                            <constraint firstItem="Xs7-s3-Q9R" firstAttribute="top" secondItem="rqa-MO-t68" secondAttribute="bottom" id="JX5-Uk-b0u"/>
-                            <constraint firstItem="Xs7-s3-Q9R" firstAttribute="centerX" secondItem="v2l-b9-r9u" secondAttribute="centerX" id="JrB-oH-eIM"/>
-                            <constraint firstItem="gSb-D9-gye" firstAttribute="centerX" secondItem="v2l-b9-r9u" secondAttribute="centerX" id="KXe-8V-56D"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="OEy-LV-XXe" secondAttribute="trailing" constant="24" id="OVX-ap-8Cm"/>
-                            <constraint firstItem="Xs7-s3-Q9R" firstAttribute="centerX" secondItem="v2l-b9-r9u" secondAttribute="centerX" id="OeM-Te-UVr"/>
-                            <constraint firstItem="Xs7-s3-Q9R" firstAttribute="top" secondItem="rqa-MO-t68" secondAttribute="bottom" id="WAJ-jr-1P1"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="7ZA-ec-JDg" secondAttribute="trailing" constant="24" id="WFS-uX-VuK"/>
-                            <constraint firstItem="7ZA-ec-JDg" firstAttribute="leading" secondItem="v2l-b9-r9u" secondAttribute="leadingMargin" constant="22" id="YEE-rs-ZVp"/>
-                            <constraint firstItem="OEy-LV-XXe" firstAttribute="centerX" secondItem="v2l-b9-r9u" secondAttribute="centerX" id="dMe-kJ-cb9"/>
-                            <constraint firstItem="7ZA-ec-JDg" firstAttribute="centerX" secondItem="v2l-b9-r9u" secondAttribute="centerX" id="frK-pl-SXa"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gSb-D9-gye" secondAttribute="trailing" constant="24" id="kED-Dl-10q"/>
-                            <constraint firstItem="OEy-LV-XXe" firstAttribute="leading" secondItem="v2l-b9-r9u" secondAttribute="leadingMargin" constant="22" id="oaL-xH-Tf1"/>
-                            <constraint firstItem="gSb-D9-gye" firstAttribute="top" secondItem="Xs7-s3-Q9R" secondAttribute="bottom" constant="-3" id="onm-J3-z34"/>
-                            <constraint firstItem="OEy-LV-XXe" firstAttribute="top" secondItem="gSb-D9-gye" secondAttribute="bottom" constant="21" id="scG-Y9-Kkd"/>
+                            <constraint firstItem="c28-Fs-hJL" firstAttribute="top" secondItem="wrx-f5-yrg" secondAttribute="bottom" constant="25" id="3x8-7M-ftK"/>
+                            <constraint firstItem="SkK-dD-oEo" firstAttribute="centerX" secondItem="v2l-b9-r9u" secondAttribute="centerX" id="9fj-Sc-eMl"/>
+                            <constraint firstItem="c28-Fs-hJL" firstAttribute="leading" secondItem="v2l-b9-r9u" secondAttribute="leadingMargin" constant="-2" id="OyE-A1-Vgx"/>
+                            <constraint firstItem="Xs7-s3-Q9R" firstAttribute="centerX" secondItem="v2l-b9-r9u" secondAttribute="centerX" id="W52-5q-0CG"/>
+                            <constraint firstItem="c28-Fs-hJL" firstAttribute="centerX" secondItem="v2l-b9-r9u" secondAttribute="centerX" id="aH8-Pi-Ih6"/>
+                            <constraint firstItem="wrx-f5-yrg" firstAttribute="top" secondItem="Xs7-s3-Q9R" secondAttribute="bottom" constant="20" id="cBO-eR-aZa"/>
+                            <constraint firstItem="wrx-f5-yrg" firstAttribute="top" secondItem="Xs7-s3-Q9R" secondAttribute="bottom" constant="20" id="gmx-Jy-HzO"/>
+                            <constraint firstItem="wrx-f5-yrg" firstAttribute="centerX" secondItem="v2l-b9-r9u" secondAttribute="centerX" id="iVq-Jt-Qpf"/>
+                            <constraint firstItem="c28-Fs-hJL" firstAttribute="trailing" secondItem="v2l-b9-r9u" secondAttribute="trailingMargin" constant="-2" id="kWi-fb-EFS"/>
+                            <constraint firstItem="wrx-f5-yrg" firstAttribute="leading" secondItem="v2l-b9-r9u" secondAttribute="leadingMargin" constant="-2" id="n8t-6Q-Ejf"/>
+                            <constraint firstItem="Xs7-s3-Q9R" firstAttribute="top" secondItem="rqa-MO-t68" secondAttribute="bottom" id="nAG-QD-cLU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wrx-f5-yrg" secondAttribute="trailing" constant="-2" id="qI7-fl-qSH"/>
+                            <constraint firstItem="SkK-dD-oEo" firstAttribute="top" secondItem="c28-Fs-hJL" secondAttribute="bottom" constant="25" id="vSe-mG-MsG"/>
                         </constraints>
                         <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="gSb-D9-gye"/>
-                                <exclude reference="OEy-LV-XXe"/>
-                                <exclude reference="7ZA-ec-JDg"/>
-                            </mask>
                             <mask key="constraints">
-                                <exclude reference="JX5-Uk-b0u"/>
-                                <exclude reference="JrB-oH-eIM"/>
-                                <exclude reference="WAJ-jr-1P1"/>
-                                <exclude reference="3V2-Ba-4cl"/>
-                                <exclude reference="7kE-HP-80j"/>
-                                <exclude reference="9Tw-YM-Csm"/>
-                                <exclude reference="KXe-8V-56D"/>
-                                <exclude reference="kED-Dl-10q"/>
-                                <exclude reference="onm-J3-z34"/>
-                                <exclude reference="9qw-fT-RMo"/>
-                                <exclude reference="OVX-ap-8Cm"/>
-                                <exclude reference="dMe-kJ-cb9"/>
-                                <exclude reference="oaL-xH-Tf1"/>
-                                <exclude reference="scG-Y9-Kkd"/>
-                                <exclude reference="WFS-uX-VuK"/>
-                                <exclude reference="YEE-rs-ZVp"/>
-                                <exclude reference="frK-pl-SXa"/>
-                                <exclude reference="DGP-vH-WX6"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="gSb-D9-gye"/>
-                                <include reference="OEy-LV-XXe"/>
-                                <include reference="7ZA-ec-JDg"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="3zb-sX-d9f"/>
-                                <exclude reference="JX5-Uk-b0u"/>
-                                <include reference="JrB-oH-eIM"/>
-                                <exclude reference="OeM-Te-UVr"/>
-                                <include reference="WAJ-jr-1P1"/>
-                                <include reference="3V2-Ba-4cl"/>
-                                <include reference="7kE-HP-80j"/>
-                                <include reference="9Tw-YM-Csm"/>
-                                <include reference="KXe-8V-56D"/>
-                                <exclude reference="kED-Dl-10q"/>
-                                <exclude reference="onm-J3-z34"/>
-                                <exclude reference="9qw-fT-RMo"/>
-                                <include reference="OVX-ap-8Cm"/>
-                                <include reference="dMe-kJ-cb9"/>
-                                <include reference="oaL-xH-Tf1"/>
-                                <include reference="scG-Y9-Kkd"/>
-                                <include reference="WFS-uX-VuK"/>
-                                <include reference="YEE-rs-ZVp"/>
-                                <include reference="frK-pl-SXa"/>
-                                <include reference="DGP-vH-WX6"/>
+                                <exclude reference="cBO-eR-aZa"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="mBu-3i-m3U"/>
-                    <connections>
-                        <outlet property="givingOnline" destination="OEy-LV-XXe" id="evz-GG-xNY"/>
-                        <outlet property="givingStations" destination="7ZA-ec-JDg" id="olm-YG-H98"/>
-                        <outlet property="txtToGive" destination="gSb-D9-gye" id="0LJ-SZ-VFd"/>
-                    </connections>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Lf-pg-8iJ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3051" y="-320"/>
+            <point key="canvasLocation" x="2848" y="-500"/>
         </scene>
         <!--Home-->
         <scene sceneID="Nt8-Gt-iWo">
@@ -397,11 +314,11 @@
     <resources>
         <image name="Bank Cards-96" width="29" height="23"/>
         <image name="Calendar-96" width="23" height="24"/>
-        <image name="Donation Box" width="362" height="80"/>
-        <image name="Giving Online" width="345" height="80"/>
+        <image name="Donation Boxes" width="283" height="52"/>
+        <image name="Give Online" width="283" height="52"/>
         <image name="Group 5" width="413" height="146"/>
         <image name="Home-96" width="27" height="26"/>
         <image name="Sign In" width="31" height="25"/>
-        <image name="Text To Give" width="314" height="85"/>
+        <image name="Text" width="283" height="52"/>
     </resources>
 </document>
